@@ -1,0 +1,456 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC7F2B701EE19F0300F98D2B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACFF0EEB1ED895E900498794 /* Main.storyboard */; };
+		AC7F2B7D1EE1A63F00F98D2B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACFF0EEA1ED895E900498794 /* LaunchScreen.storyboard */; };
+		AC8353A51EDAC49100DED9D3 /* DropViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8353A41EDAC49100DED9D3 /* DropViewController.swift */; };
+		ACCA5DF91EE1A96E00A0FDC3 /* SplitViewDragAndDrop+Dragger.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCA5DF61EE1A96E00A0FDC3 /* SplitViewDragAndDrop+Dragger.swift */; };
+		ACCA5DFA1EE1A96E00A0FDC3 /* SplitViewDragAndDrop+Dragger.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCA5DF61EE1A96E00A0FDC3 /* SplitViewDragAndDrop+Dragger.swift */; };
+		ACCA5DFB1EE1A96E00A0FDC3 /* SplitViewDragAndDrop+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCA5DF71EE1A96E00A0FDC3 /* SplitViewDragAndDrop+Utils.swift */; };
+		ACCA5DFC1EE1A96E00A0FDC3 /* SplitViewDragAndDrop+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCA5DF71EE1A96E00A0FDC3 /* SplitViewDragAndDrop+Utils.swift */; };
+		ACCA5DFD1EE1A96E00A0FDC3 /* SplitViewDragAndDrop.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCA5DF81EE1A96E00A0FDC3 /* SplitViewDragAndDrop.swift */; };
+		ACCA5DFE1EE1A96E00A0FDC3 /* SplitViewDragAndDrop.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCA5DF81EE1A96E00A0FDC3 /* SplitViewDragAndDrop.swift */; };
+		ACE2973A1ED97CB100595DBA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE297391ED97CB100595DBA /* AppDelegate.swift */; };
+		ACE2973B1ED97CB100595DBA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE297391ED97CB100595DBA /* AppDelegate.swift */; };
+		ACFF0ED01ED895B000498794 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACFF0ECF1ED895B000498794 /* Assets.xcassets */; };
+		ACFF0EE11ED895BA00498794 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACFF0ECF1ED895B000498794 /* Assets.xcassets */; };
+		ACFF0EEE1ED895E900498794 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACFF0EEA1ED895E900498794 /* LaunchScreen.storyboard */; };
+		ACFF0EEF1ED895E900498794 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACFF0EEB1ED895E900498794 /* Main.storyboard */; };
+		ACFF0EF11ED8962000498794 /* AppConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFF0EF01ED8962000498794 /* AppConfig.swift */; };
+		ACFF0EF21ED8964500498794 /* AppConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFF0EF01ED8962000498794 /* AppConfig.swift */; };
+		ACFF0EF41ED896F000498794 /* DragViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFF0EF31ED896F000498794 /* DragViewController.swift */; };
+		ACFF0EFC1ED89C3900498794 /* DragViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFF0EF31ED896F000498794 /* DragViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AC7F2B751EE1A53100F98D2B /* Drag-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Drag-Info.plist"; sourceTree = "<group>"; };
+		AC7F2B761EE1A53100F98D2B /* Drag.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = Drag.entitlements; sourceTree = "<group>"; };
+		AC7F2B771EE1A53100F98D2B /* Drop-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Drop-Info.plist"; sourceTree = "<group>"; };
+		AC7F2B781EE1A53100F98D2B /* Drop.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = Drop.entitlements; sourceTree = "<group>"; };
+		AC8353A41EDAC49100DED9D3 /* DropViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DropViewController.swift; sourceTree = "<group>"; };
+		ACCA5DF61EE1A96E00A0FDC3 /* SplitViewDragAndDrop+Dragger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SplitViewDragAndDrop+Dragger.swift"; sourceTree = "<group>"; };
+		ACCA5DF71EE1A96E00A0FDC3 /* SplitViewDragAndDrop+Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SplitViewDragAndDrop+Utils.swift"; sourceTree = "<group>"; };
+		ACCA5DF81EE1A96E00A0FDC3 /* SplitViewDragAndDrop.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplitViewDragAndDrop.swift; sourceTree = "<group>"; };
+		ACE297391ED97CB100595DBA /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ACFF0EC51ED895B000498794 /* Drag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Drag.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACFF0ECF1ED895B000498794 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ACFF0EE61ED895BA00498794 /* Drop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Drop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACFF0EEA1ED895E900498794 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ACFF0EEB1ED895E900498794 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		ACFF0EF01ED8962000498794 /* AppConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppConfig.swift; sourceTree = "<group>"; };
+		ACFF0EF31ED896F000498794 /* DragViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DragViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ACFF0EC21ED895B000498794 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACFF0EDE1ED895BA00498794 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC7F2B741EE1A53100F98D2B /* Supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				AC7F2B761EE1A53100F98D2B /* Drag.entitlements */,
+				AC7F2B781EE1A53100F98D2B /* Drop.entitlements */,
+				AC7F2B751EE1A53100F98D2B /* Drag-Info.plist */,
+				AC7F2B771EE1A53100F98D2B /* Drop-Info.plist */,
+			);
+			path = "Supporting files";
+			sourceTree = "<group>";
+		};
+		ACCA5DF51EE1A96E00A0FDC3 /* SplitViewDragAndDrop */ = {
+			isa = PBXGroup;
+			children = (
+				ACCA5DF61EE1A96E00A0FDC3 /* SplitViewDragAndDrop+Dragger.swift */,
+				ACCA5DF71EE1A96E00A0FDC3 /* SplitViewDragAndDrop+Utils.swift */,
+				ACCA5DF81EE1A96E00A0FDC3 /* SplitViewDragAndDrop.swift */,
+			);
+			path = SplitViewDragAndDrop;
+			sourceTree = "<group>";
+		};
+		ACFF0EBC1ED895B000498794 = {
+			isa = PBXGroup;
+			children = (
+				ACFF0EC71ED895B000498794 /* DragAndDropDemo */,
+				ACFF0EC61ED895B000498794 /* Products */,
+				ACCA5DF51EE1A96E00A0FDC3 /* SplitViewDragAndDrop */,
+			);
+			sourceTree = "<group>";
+		};
+		ACFF0EC61ED895B000498794 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ACFF0EC51ED895B000498794 /* Drag.app */,
+				ACFF0EE61ED895BA00498794 /* Drop.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ACFF0EC71ED895B000498794 /* DragAndDropDemo */ = {
+			isa = PBXGroup;
+			children = (
+				ACFF0EEA1ED895E900498794 /* LaunchScreen.storyboard */,
+				ACFF0EEB1ED895E900498794 /* Main.storyboard */,
+				ACFF0EF01ED8962000498794 /* AppConfig.swift */,
+				ACE297391ED97CB100595DBA /* AppDelegate.swift */,
+				ACFF0EF31ED896F000498794 /* DragViewController.swift */,
+				AC8353A41EDAC49100DED9D3 /* DropViewController.swift */,
+				ACFF0ECF1ED895B000498794 /* Assets.xcassets */,
+				AC7F2B741EE1A53100F98D2B /* Supporting files */,
+			);
+			path = DragAndDropDemo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ACFF0EC41ED895B000498794 /* Drag */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACFF0ED71ED895B000498794 /* Build configuration list for PBXNativeTarget "Drag" */;
+			buildPhases = (
+				ACFF0EC11ED895B000498794 /* Sources */,
+				ACFF0EC21ED895B000498794 /* Frameworks */,
+				ACFF0EC31ED895B000498794 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Drag;
+			productName = DragAndDropDemo;
+			productReference = ACFF0EC51ED895B000498794 /* Drag.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ACFF0EDA1ED895BA00498794 /* Drop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACFF0EE31ED895BA00498794 /* Build configuration list for PBXNativeTarget "Drop" */;
+			buildPhases = (
+				ACFF0EDB1ED895BA00498794 /* Sources */,
+				ACFF0EDE1ED895BA00498794 /* Frameworks */,
+				ACFF0EDF1ED895BA00498794 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Drop;
+			productName = DragAndDropDemo;
+			productReference = ACFF0EE61ED895BA00498794 /* Drop.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ACFF0EBD1ED895B000498794 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Mario;
+				TargetAttributes = {
+					ACFF0EC41ED895B000498794 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = X9253HG4XT;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					ACFF0EDA1ED895BA00498794 = {
+						DevelopmentTeam = X9253HG4XT;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = ACFF0EC01ED895B000498794 /* Build configuration list for PBXProject "DragAndDropDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ACFF0EBC1ED895B000498794;
+			productRefGroup = ACFF0EC61ED895B000498794 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ACFF0EC41ED895B000498794 /* Drag */,
+				ACFF0EDA1ED895BA00498794 /* Drop */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ACFF0EC31ED895B000498794 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACFF0EEF1ED895E900498794 /* Main.storyboard in Resources */,
+				ACFF0EEE1ED895E900498794 /* LaunchScreen.storyboard in Resources */,
+				ACFF0ED01ED895B000498794 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACFF0EDF1ED895BA00498794 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC7F2B7D1EE1A63F00F98D2B /* LaunchScreen.storyboard in Resources */,
+				ACFF0EE11ED895BA00498794 /* Assets.xcassets in Resources */,
+				AC7F2B701EE19F0300F98D2B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ACFF0EC11ED895B000498794 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACCA5DFD1EE1A96E00A0FDC3 /* SplitViewDragAndDrop.swift in Sources */,
+				ACCA5DF91EE1A96E00A0FDC3 /* SplitViewDragAndDrop+Dragger.swift in Sources */,
+				ACFF0EF41ED896F000498794 /* DragViewController.swift in Sources */,
+				ACE2973A1ED97CB100595DBA /* AppDelegate.swift in Sources */,
+				ACFF0EF11ED8962000498794 /* AppConfig.swift in Sources */,
+				ACCA5DFB1EE1A96E00A0FDC3 /* SplitViewDragAndDrop+Utils.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACFF0EDB1ED895BA00498794 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACCA5DFE1EE1A96E00A0FDC3 /* SplitViewDragAndDrop.swift in Sources */,
+				ACFF0EF21ED8964500498794 /* AppConfig.swift in Sources */,
+				ACFF0EFC1ED89C3900498794 /* DragViewController.swift in Sources */,
+				ACCA5DFC1EE1A96E00A0FDC3 /* SplitViewDragAndDrop+Utils.swift in Sources */,
+				ACE2973B1ED97CB100595DBA /* AppDelegate.swift in Sources */,
+				ACCA5DFA1EE1A96E00A0FDC3 /* SplitViewDragAndDrop+Dragger.swift in Sources */,
+				AC8353A51EDAC49100DED9D3 /* DropViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		ACFF0ED51ED895B000498794 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ACFF0ED61ED895B000498794 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ACFF0ED81ED895B000498794 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "DragAndDropDemo/Supporting files/Drag.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = X9253HG4XT;
+				INFOPLIST_FILE = "$(SRCROOT)/DragAndDropDemo/Supporting files/Drag-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_SWIFT_FLAGS = "-D IS_DRAG_APP";
+				PRODUCT_BUNDLE_IDENTIFIER = com.marioiannotta.DragAndDropDemo.DragApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		ACFF0ED91ED895B000498794 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "DragAndDropDemo/Supporting files/Drag.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = X9253HG4XT;
+				INFOPLIST_FILE = "$(SRCROOT)/DragAndDropDemo/Supporting files/Drag-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_SWIFT_FLAGS = "-D IS_DRAG_APP";
+				PRODUCT_BUNDLE_IDENTIFIER = com.marioiannotta.DragAndDropDemo.DragApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		ACFF0EE41ED895BA00498794 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "DragAndDropDemo/Supporting files/Drop.entitlements";
+				DEVELOPMENT_TEAM = X9253HG4XT;
+				INFOPLIST_FILE = "$(SRCROOT)/DragAndDropDemo/Supporting files/Drop-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.marioiannotta.DragAndDropDemo.DropApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		ACFF0EE51ED895BA00498794 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "DragAndDropDemo/Supporting files/Drop.entitlements";
+				DEVELOPMENT_TEAM = X9253HG4XT;
+				INFOPLIST_FILE = "$(SRCROOT)/DragAndDropDemo/Supporting files/Drop-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.marioiannotta.DragAndDropDemo.DropApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ACFF0EC01ED895B000498794 /* Build configuration list for PBXProject "DragAndDropDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACFF0ED51ED895B000498794 /* Debug */,
+				ACFF0ED61ED895B000498794 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACFF0ED71ED895B000498794 /* Build configuration list for PBXNativeTarget "Drag" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACFF0ED81ED895B000498794 /* Debug */,
+				ACFF0ED91ED895B000498794 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACFF0EE31ED895BA00498794 /* Build configuration list for PBXNativeTarget "Drop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACFF0EE41ED895BA00498794 /* Debug */,
+				ACFF0EE51ED895BA00498794 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ACFF0EBD1ED895B000498794 /* Project object */;
+}
