@@ -4,11 +4,12 @@ Easily add drag and drop to pass data between your apps
 [![Platform](http://img.shields.io/badge/platform-ios-red.svg?style=flat
 )](https://developer.apple.com/iphone/index.action)
 [![Swift 3](https://img.shields.io/badge/Swift-3-orange.svg?style=flat)](https://developer.apple.com/swift/) 
+[![Cocoapods Compatible](https://img.shields.io/cocoapods/v/SplitViewDragAndDrop.svg)](https://img.shields.io/cocoapods/v/SplitViewDragAndDrop.svg)
 
 <img src="demo.gif" height="500"/>
 
 # Setup
-- Copy the "SplitViewDragAndDrop" folder into your project
+- Add ```pod 'SplitViewDragAndDrop'``` to your Podfile or copy the "SplitViewDragAndDrop" folder into your project
 - Make sure to call 
 ```SplitViewDragAndDrop.configure(groupIdentifier: <YOUR-APP-GROUP-ID>)``` in ```application:didFinishLaunchingWithOptions:```. **Your apps must share that app group in order to communicate**.
 - Configure the view you want to drag with ```SplitViewDragAndDrop.handleDrag(viewToDrag: <THE-DRAGGABLE-VIEW>, identifier: <AN-IDENTIFIER>, dataToTransfer: <SOME-DATA-TO-TRANSFER>)``` 
